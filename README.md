@@ -7,19 +7,23 @@ This project is a **Task Management System** developed using **Java** and **Spri
 ### Task Management System - 10 Business Requirements
 
 1. **User Registration and Authentication**  
-   Users must register and log in securely to access the system. Upon successful login, users will be authenticated with **RSA-encrypted JWT tokens** stored in cookies.  
+   Users must register and log in securely to access the system. Upon successful login, users will be authenticated with **RSA-encrypted JWT tokens** stored in cookies. 
+ 
    **Objective:** Ensure only authorized users can access and manage tasks.
 
 2. **Task Management**  
    Project Owners will be able to create, update, and delete tasks with details like title, description, due date, and status.  
+
    **Objective:** Provide the ability to efficiently manage tasks for a project.
 
 3. **Project Management**  
    Project Owners can create new projects, which serve as containers for tasks. They will be able to update project details and delete projects if necessary.  
+
    **Objective:** Organize tasks under projects to structure the work.
 
 4. **Notification System**  
    Each action (e.g., task creation, update, assignment, deletion) will generate a notification to the user. Notifications will be available for users to view.  
+
    **Objective:** Keep users informed about key actions related to their tasks and projects.
 
 5. **Task Status Tracking**  
@@ -27,10 +31,12 @@ This project is a **Task Management System** developed using **Java** and **Spri
    - `To Do`
    - `In Progress`
    - `Completed`  
+
    **Objective:** Help users track task progress and stay updated on the status of tasks assigned to them.
 
 6. **Task Assignment**  
    Project Owners can assign tasks to specific team members. This allows for task delegation and ensures accountability for each task.  
+
    **Objective:** Ensure tasks are completed by the right individuals and promote collaboration.
 
 7. **Role-Based Access Control**  
@@ -38,18 +44,22 @@ This project is a **Task Management System** developed using **Java** and **Spri
    - **Admin:** Full access to manage users, tasks, projects, etc.  
    - **Project Owner:** Responsible for creating projects, tasks, and assigning tasks.  
    - **User:** Regular users who can view and work on tasks assigned to them.  
+
    **Objective:** Enforce proper permissions and ensure that users can only perform actions that they are authorized to.
 
 8. **Progress Overview**  
    Users will have an overview of their tasks, with the ability to see a summary of completed vs. pending tasks. This allows users to track their productivity and focus on tasks that are in progress or pending.  
+
    **Objective:** Help users prioritize their work and track overall progress.
 
 9. **Data Security and Privacy**  
    Authentication will use **RSA-encrypted JWT tokens** stored in cookies. Only authorized users can access task data, and sensitive information will always be protected.  
+
    **Objective:** Ensure that user data and tasks are secure and protected from unauthorized access.
 
 10. **Task View and Filter**  
     Users will have the ability to filter tasks by different criteria such as project, status (e.g., To Do, In Progress, Completed), or due date.  
+
     **Objective:** Improve task visibility and organization by enabling users to filter tasks based on their needs.
 
 ## 🚀 MVP Features
