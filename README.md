@@ -62,7 +62,7 @@ This project is a **Task Management System** developed using **Java** and **Spri
 
     **Objective:** Improve task visibility and organization by enabling users to filter tasks based on their needs.
 
-## 🚀 MVP Features
+## 🚀 Minimum Viable Product
 
 ### 1. User Authentication & Registration System
 
